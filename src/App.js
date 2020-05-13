@@ -1,15 +1,17 @@
 import React from "react";
-import logo from "./logo.svg";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./views/Home";
 import About from "./views/About";
-import "./App.css";
+import Header from "./views/Header";
+import Footer from "./views/Footer";
+import "./App.scss";
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Switch>
+      <div className="main--wrapper">
+        <Header />
+        <Switch className="body--wrapper">
           <Route exact path="/">
             <Home />
           </Route>
@@ -17,6 +19,7 @@ function App() {
             <About />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
