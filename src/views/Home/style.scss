@@ -1,0 +1,246 @@
+.light_main_wrap{
+	background: #eeeeee;
+    padding: 50px 0;
+    text-align: center;
+    .section_title_wrap{
+    	h1{
+    		margin: 0;
+    		padding: 20px 0 25px;
+    	}
+    }
+	img{
+		width: 100%;
+	}
+}
+
+.drak_main_wrap {
+	background: #211f30;
+    padding: 60px 0;
+    .top_text{
+    	font-weight: 900;
+    	font-size: 16px;
+    	color: #fff;
+    	margin-bottom: 40px;
+    }
+    h1{
+		color: #6f67fd;
+	    font-weight: 900;
+	    font-size: 40px;
+	    margin-bottom: 50px;
+	    line-height: 50px;
+	    padding: 10px 0;
+    }
+}
+.workflow_wrap{
+	height: 690px;
+	.sub_wrap{
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		.left_wrap{
+			width: 300px;
+		    max-width: 100%;
+		    padding-right: 3px;
+		    p{
+		    	font-size: 18px;
+		    	color: #fff;
+		    	margin-bottom: 30px;
+		    }
+		}
+		.right_wrap{
+			width: calc(100% - 300px);
+		    max-width: 100%;
+		}
+	}
+}
+.box_main_wrapper{
+    width: 90%;
+    float: right;
+    clear: both;
+	.box_container{
+		display: inline-block;
+		vertical-align: middle;
+		width: 15%;
+		text-align: center;
+		background: #242435;
+		border-radius: 5px;
+		margin: 0 7px 50px;
+		img{
+			width: 70px;
+			height: 70px;
+		}
+		p{
+			font-size: 10px;
+			color: #ffbf00;
+		}
+	}
+	.pad_in{
+		padding: 0 11px;
+	}
+	.box_container:first-child{
+		margin-left: 0;
+	}
+	.box_container.last_child{
+		margin-right: 0;
+	}
+	.tab_img{
+		width: 100%;
+	}
+}
+
+.challenges_wrap{
+	margin-top: 100px;
+	padding: 50px 0 180px;
+	.challenge_sub_wrap{
+		width: 600px;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	.title_wrap_section{
+	    text-align: center;
+	    margin: 0 auto;
+	    width: 510px;
+	    h6{
+	      font-weight: 900;
+	      font-size: 14px;
+	      color: #000;
+	      text-transform: uppercase;
+	      letter-spacing: -1px;
+	    }
+	    h1{
+	      color: #6f67fd;
+	      font-weight: 900;
+	      font-size: 35px;
+	      padding: 20px 0 25px;
+	    }
+	}
+	.text_wrapper{
+	    text-align: center;
+	    width: 510px;
+	    margin: 0 auto;
+	}
+	.box_wrapper{
+		margin: 50px 0;
+		.box_container{
+		    display: inline-block;
+		    vertical-align: middle;
+		    width: 23.3%;
+		    margin: 5px;
+		    text-align: center;
+		    background: #fff;
+		    border-radius: 5px;
+		    box-shadow: 0 0 20px 0px #e4e4e4;
+		    padding: 10px;
+			img{
+				width: 100px;
+				height: 100px;
+				padding: 5px;
+			}
+			p{
+				font-weight: 900;
+				font-size: 14px;
+				color: #000;
+				line-height: 14px;
+				letter-spacing: -0.5px;
+			}
+		}
+		.pad_in{
+			padding: 10px 20px;
+		}
+	}
+	.btn_wrap{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.btn_dark{
+			background: #211f30;
+		    color: #fff;
+    		font-weight: 900;
+    		margin-right: 10px;
+		}
+		.btn_purpel{
+			margin-left: 10px;
+		}
+	}
+}
+
+.block_chain{
+	background: #211f30;
+    padding: 100px 0;
+    position: relative;
+	.title_wrapper{
+	    h6{
+			font-weight: 900;
+			font-size: 14px;
+			color: #fff;
+			text-transform: uppercase;
+			letter-spacing: -1px;
+	    }
+	    h1{
+			color: #6f67fd;
+			font-weight: 900;
+			font-size: 48px;
+			padding: 50px 0;
+	    }
+	}
+	p{
+		font-size: 20px;
+		color: #fff;
+		width: 300px;
+		max-width: 100%;
+	}
+	.img_wrapper{
+		position: absolute;
+	    bottom: 150px;
+	    right: 0px;
+		.side_img{
+			width: 800px;
+		}
+	}
+	.list_wrap{
+		margin-top: 100px;
+		margin-bottom: 40px;
+		li{
+			width: 33.33%;
+			display: inline-block;
+			vertical-align: middle;
+			p{
+				font-size: 14px;
+				color: #6f67fd;
+			}
+		}
+	}
+}
+
+.bottom_section{
+	position: relative;
+	.onetapaway_wrapper{
+		text-align: center;
+	    max-width: 500px;
+	    margin: 50px auto;
+	    padding: 50px 0 200px;	
+	    h6{
+			font-weight: 900;
+			font-size: 14px;
+			color: #000;
+		}
+		h1{
+			color: #6f67fd;
+		}
+		p{
+			font-weight: 900;
+			font-size: 16px;
+			color: #000;
+			margin: 50px 0 90px;
+		}
+	}
+	.img_wrap{
+	    text-align: left;
+	    position: absolute;
+	    top: 280px;
+	    left: 0;
+		img{
+			width: 700px;
+		}
+	}
+}
