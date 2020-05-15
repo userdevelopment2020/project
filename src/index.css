@@ -1,8 +1,43 @@
+@font-face {
+    font-family: 'DejaVuSans';
+    src: url('/fonts/dejavu/DejaVuSans.ttf') format('truetype'),
+        url('/fonts/dejavu/DejaVuSans-Bold.ttf') format('truetype'),
+        url('/fonts/dejavu/DejaVuSans-BoldOblique.ttf') format('truetype'),
+        url('/fonts/dejavu/DejaVuSansCondensed.ttf') format('truetype'),
+        url('/fonts/dejavu/DejaVuSansCondensed-Bold.ttf') format('truetype'),
+        url('/fonts/dejavu/DejaVuSansCondensed-BoldOblique.ttf') format('truetype'),
+        url('/fonts/dejavu/DejaVuSansCondensed-Oblique.ttf') format('truetype'),
+        url('/fonts/dejavu/DejaVuSans-ExtraLight.ttf') format('truetype'),
+        url('/fonts/dejavu/DejaVuSans-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bely';
+    src:url('/fonts/bely/d0d2b58b07ae4aaf1fa2b7f022d44f17.eot'),
+        url('/fonts/bely/d0d2b58b07ae4aaf1fa2b7f022d44f17.ttf') format('truetype'),
+        url('/fonts/bely/d0d2b58b07ae4aaf1fa2b7f022d44f17.woff') format('woff'),
+        url('/fonts/bely/d0d2b58b07ae4aaf1fa2b7f022d44f17.woff2') format('woff2'),
+        url('/fonts/bely/BelyW03Bold.ttf') format('truetype'),
+        url('/fonts/bely/BelyW03Bold.otf') format('opentype');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans Condensed';
+    src: url('/fonts/dejavuc/dejavu-sans.condensed-bold.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'DejaVu Sans Condensed', 'Bely', 'DejaVuSans',  sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +46,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

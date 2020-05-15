@@ -1,4 +1,5 @@
 .header{
+	padding: 20px 0;
 	.header_wrap{
 		line-height: 60px;
 		text-align: right;
@@ -42,4 +43,30 @@
 			display: none;
 		}
 	}
+	.menu_company{
+		font-size: 18px;
+		color: #6f67fd;
+	}
 }
+
+/*@media screen and (max-width: 767px){
+	.header{
+		.header_wrap{
+			.left_menu{
+			    width: 0;
+    			margin-left: 50px;
+			}
+			.mobile_width_header{
+				width: 100% !important;
+			}
+			.ant-menu-overflowed-submenu{
+				position: absolute;
+    			left: 20px;
+			}
+		}
+	} 
+	.header .ant-menu-horizontal > .ant-menu-item:hover:after, .header .ant-menu-horizontal > .ant-menu-submenu:hover:after, .header .ant-menu-horizontal > .ant-menu-item-active:after, .header .ant-menu-horizontal > .ant-menu-submenu-active:after, .header .ant-menu-horizontal > .ant-menu-item-open:after, .header .ant-menu-horizontal > .ant-menu-submenu-open:after, .header .ant-menu-horizontal > .ant-menu-item-selected:after, .header .ant-menu-horizontal > .ant-menu-submenu-selected:after{
+		content: '';
+		display: none;
+	}
+}*/

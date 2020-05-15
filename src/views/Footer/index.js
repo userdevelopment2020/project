@@ -18,9 +18,11 @@ class Footer extends React.Component {
 						    	<div className="footer_main_wrap">
 						    		<ul>
 						    			<li>
-						    				<div>
+						    				<div className="first_div_wrap">
 						    					<h6>pi</h6>
-						    					<p>Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod por incidid ut labore et lorem.</p>
+						    					<p>Address: Lorem Iposum, no. 14</p>
+						    					<p>Phone Number: (800)7775555744</p>
+						    					<p>Support@Mywebsite.com</p>
 						    				</div>
 						    			</li>
 						    			<li>
@@ -56,10 +58,10 @@ class Footer extends React.Component {
 						    				</div>
 						    			</li>
 						    		</ul>
+				    				<div><button className="btn btn_purpel btn_footer">Get started with pi</button></div>
 						    	</div>
 					    	</div>
 				    	</div>
-				    	<div><button className="btn btn_purpel">Get started with pi</button></div>
 				    </div>
 				</footer>
 			</>

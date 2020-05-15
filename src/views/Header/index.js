@@ -25,30 +25,30 @@ class Header extends React.Component {
 						        >
 						          <Menu.Item key="/a" className="left_menu no_border" >
 						            <Link to="/">
-						              <p>param .network</p>
+						              <p className="menu_company">param.network</p>
 						            </Link>
 						          </Menu.Item>
-						          <Menu.Item key="/b">
+						          <Menu.Item key="/b" className="mobile_width_header">
 						            <Link to="/">
 						              <p>Home</p>
 						            </Link>
 						          </Menu.Item>
-						          <Menu.Item key="/c">
+						          <Menu.Item key="/c" className="mobile_width_header">
 						            <Link to="/">
 						              <p>Solutions</p>
 						            </Link>
 						          </Menu.Item>
-						          <Menu.Item key="/d">
+						          <Menu.Item key="/d" className="mobile_width_header">
 						            <Link to="/">
 						              <p>Technology</p>
 						            </Link>
 						          </Menu.Item>
-						          <Menu.Item key="/e">
+						          <Menu.Item key="/e" className="mobile_width_header">
 						            <Link to="/">
 						              <p>Team</p>
 						            </Link>
 						          </Menu.Item>
-						          <Menu.Item key="/f" className="no_border" >
+						          <Menu.Item key="/f" className="no_border mobile_width_header" >
 						            <Link to="/">
 						            	<button className="btn btn_purpel">Get Started</button>
 						            </Link>
