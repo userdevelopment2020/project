@@ -26,10 +26,19 @@
     padding: 0;
     margin: 0;
   }
+  .btn{
+    &:focus{
+      outline: 0;
+      box-shadow: none;
+    }
+  }
   .btn_purpel{
     background: #6f67fd;
     color: #fff;
     font-weight: 900;
+    &:hover{
+      color: #fff;
+    }
   }
   .text_width{
     width: 750px;
@@ -76,3 +85,8 @@
     }
   }
 }
+  @media screen and (max-width: 767px){
+    .main--wrapper{
+      overflow-x: hidden;
+    }
+  }

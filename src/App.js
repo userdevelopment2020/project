@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./views/Home";
 import About from "./views/About";
+import Solutions from "./views/Solutions";
 import Header from "./views/Header";
 import Footer from "./views/Footer";
 import "./App.scss";
@@ -17,6 +18,9 @@ function App() {
           </Route>
           <Route exact path="/about">
             <About />
+          </Route>
+          <Route exact path="/solutions">
+            <Solutions />
           </Route>
         </Switch>
         <Footer />
