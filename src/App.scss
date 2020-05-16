@@ -16,10 +16,13 @@
 
 .main--wrapper{
   h1{
-    font-family: 'Bely',  sans-serif;
+    font-family: 'Bely Bold',  sans-serif;
   }
   p{
    font-family: 'DejaVuSans',  sans-serif; 
+  }
+  h6{
+    font-family: 'DejaVu Sans Condensed', sans-serif;
   }
   ul{
     list-style: none;
@@ -27,6 +30,7 @@
     margin: 0;
   }
   .btn{
+    font-family: 'DejaVu Sans Condensed', sans-serif;
     &:focus{
       outline: 0;
       box-shadow: none;
@@ -41,33 +45,29 @@
     }
   }
   .text_width{
-    width: 750px;
+    width: 805px;
     margin: 0 auto;
     text-align: center;
     max-width: 100%;
   }
   .text_black{
-    font-size: 18px;
+    font-size: 20px;
     color: #000;
-    span{
-      font-weight: 900;
-    }
   }
   .section_title_wrap{
     text-align: center;
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
     max-width: 100%;
     h6{
       font-weight: 900;
-      font-size: 14px;
+      font-size: 15px;
       color: #000;
       text-transform: uppercase;
     }
     h1{
       color: #6f67fd;
-      font-weight: 900;
-      font-size: 45px;
+      font-size: 60px;
     }
   }
   @media screen and (max-width: 767px){

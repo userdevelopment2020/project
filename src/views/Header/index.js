@@ -38,7 +38,7 @@ class Header extends React.Component {
 						        >
 						          <Menu.Item key="/a" className="left_menu no_border" >
 						            <Link to="/">
-						              <p className="menu_company">param.network</p>
+						              <p className="menu_company">⦃param⦄.network</p>
 						            </Link>
 						          </Menu.Item>
 						          <Menu.Item key="/b">
@@ -74,7 +74,7 @@ class Header extends React.Component {
 						<div className="mobile_sub_wrapper">
 							<div className="left_wrapper">
 								<button onClick={this.showDrawer} className="btn btn_drawer"><i className="fa fa-list"></i></button>
-								<p className="company_name">param.network</p>
+								<p className="company_name">⦃param⦄.network</p>
 							</div>
 							<button className="btn btn_purpel">Get Started</button>
 							<Drawer

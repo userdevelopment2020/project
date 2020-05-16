@@ -56,11 +56,11 @@ class Home extends React.Component {
 				</div>
 				<div className="drak_main_wrap workflow_wrap">
 					<div className="container">
-						<p className="top_text">Get started with pi</p>
+						<p className="top_text">Get started with ⦃pi⦄</p>
 						<div className="sub_wrap">
 							<div className="left_wrap">
 								<h1>And watch your work flow.</h1>
-								<p>(pi) is a collaborative process management platform for companies interacting with suppliers and carriers that uniquely combines procure-to-pay and order-to-cash business processes, enabling digitized transactions across the supply chain.</p>
+								<p>⦃pi⦄ is a collaborative process management platform for companies interacting with suppliers and carriers that uniquely combines procure-to-pay and order-to-cash business processes, enabling digitized transactions across the supply chain.</p>
 								<button className="btn btn_purpel">Get Started</button>
 							</div>
 							<div className="right_wrap">
