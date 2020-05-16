@@ -19,7 +19,7 @@ class Footer extends React.Component {
 						    		<ul>
 						    			<li>
 						    				<div className="first_div_wrap">
-						    					<h6>pi</h6>
+						    					<h6>⦃pi⦄</h6>
 						    					<p>Address: Lorem Iposum, no. 14</p>
 						    					<p>Phone Number: (800)7775555744</p>
 						    					<p>Support@Mywebsite.com</p>
@@ -58,7 +58,7 @@ class Footer extends React.Component {
 						    				</div>
 						    			</li>
 						    		</ul>
-				    				<div><button className="btn btn_purpel btn_footer">Get started with pi</button></div>
+				    				<div><button className="btn btn_purpel btn_footer">Get started with ⦃pi⦄</button></div>
 						    	</div>
 					    	</div>
 				    	</div>

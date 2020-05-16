@@ -88,7 +88,7 @@ class Home extends React.Component {
 										</div>
 										<div className="box_container pad_in last_child">
 											<img src="/images/Instant-01.png" alt="" />
-											<p className="test_color">Instant Reconciliation</p>
+											<p>Instant Reconciliation</p>
 										</div>
 									</div>
 									<img src="images/Tab.png" className="tab_img" alt="" />
@@ -179,6 +179,14 @@ class Home extends React.Component {
 									<li><p>EXPERIENCE</p></li>
 									<li><p>WORKFLOW CREATION</p></li>
 								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="btn_desktop_block_chain">
+					<div className="container">
+						<div className="row">
+							<div className="col-md-8">
 								<button className="btn btn_purpel dektop_btn">Learn more</button>
 							</div>
 						</div>
@@ -198,15 +206,16 @@ class Home extends React.Component {
 										your iOS devices - mobile, tablet,
 										laptop or desktop.
 									</p>
-									<button className="btn btn_purpel">
-										Try it now!
-									</button>
+								</div>
+								<div className="footer_top_image">
+									<div className="content_wrapper">
+										<button className="btn btn_purpel">
+											Try it now!
+										</button>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div className="img_wrap">
-						<img src="/images/Image_bottom.png" alt="" />
 					</div>
 				</div>
 			</div>

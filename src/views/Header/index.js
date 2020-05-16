@@ -73,7 +73,7 @@ class Header extends React.Component {
 					<div className="mobile_header">
 						<div className="mobile_sub_wrapper">
 							<div className="left_wrapper">
-								<button onClick={this.showDrawer} className="btn btn_drawer"><i className="fa fa-list"></i></button>
+								<button onClick={this.showDrawer} className="btn btn_drawer"><i className="fa fa-bars"></i></button>
 								<p className="company_name">⦃param⦄.network</p>
 							</div>
 							<button className="btn btn_purpel">Get Started</button>
