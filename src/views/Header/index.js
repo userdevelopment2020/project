@@ -94,7 +94,7 @@ class Header extends React.Component {
 				          	<Link to="/">
 				              	<p>Technology</p>
 				            </Link>
-				            <Link to="/">
+				            <Link to="/technology">
 				              	<p>Team</p>
 				            </Link>
 					        </Drawer>

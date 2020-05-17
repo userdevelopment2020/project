@@ -20,8 +20,10 @@ class Technology extends React.Component {
 							<div className="content_wrap">
 								<h1>Accelerating trade finance with blockchain</h1>
 								<p className="top_text">⦃param⦄ is a peer-to-peer hybrid blockchain protocol based on Quorum, specifically developed to automate and protect the exchange of documents between organizations</p>
-								<button className="btn btn_yellow">Try it now! <img src="/images/arrow.png" alt="" /></button>
-								<p className="bottom_text">The technology enables enterprises and financial institutions to share digital assets such as quotations, POs, invoices, payments, and receipts without consortium requirements, according to all compliance standards and with the highest level of data privacy.</p>
+								<div className="bottom_wrapper">
+									<button className="btn btn_yellow">Try it now! <img src="/images/arrow.png" alt="" /></button>
+									<p className="bottom_text">The technology enables enterprises and financial institutions to share digital assets such as quotations, POs, invoices, payments, and receipts without consortium requirements, according to all compliance standards and with the highest level of data privacy.</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -134,17 +136,19 @@ class Technology extends React.Component {
 								</div>
 							</div>
 						</div>
+					</div>
+					<div className="container-fluid">
 						<div className="row">
 							<div className="col-md-5">
 								<div className="list_wrap">
 									<p>⦃param⦄ offers a Permissioned Public network seeded by foundation and expanded by as many enterprise as participate on the network, which supporting the goal of creating a truly holistic collaboration and providing one of the fastest ways to add blockchain capabilities to your application without managing cryptocurrencies, wallets, or network nodes.</p>
+									<div className="text-left"><button className="btn btn_purpel">Learn More</button></div>
 								</div>
 							</div>
-							<div className="col-md-7">
+							<div className="right_wrapper_img">
 								<img src="/images/img2.png" className="img_tab" alt="" />
 							</div>
 						</div>
-						<div className="text-left"><button className="btn btn_purpel">Learn More</button></div>
 					</div>
 				</div>
 				<div className="benefit_wrapper">
