@@ -21,7 +21,7 @@ class Solutions extends React.Component {
 								<h1>Multiple workflows.</h1>
 								<h1>One workspace.</h1>
 								<p className="top_text">⦃pi⦄ is a blockchain-powered, collaborative digital invoicing platform that gathers all workflows attached to a particular project to the same invoice.</p>
-								<button className="btn btn_yellow">Try it now! <i className="fa fa-arrow-right"></i></button>
+								<button className="btn btn_yellow">Try it now! <img src="/images/arrow.png" alt="" /></button>
 								<p className="bottom_text">This allows enterprises to automatically exchange digital assets between each other, in a highly secure way.</p>
 							</div>
 						</div>
@@ -178,7 +178,7 @@ class Solutions extends React.Component {
 								<img src="/images/Tab.png" className="img_tab" alt="" />
 							</div>
 						</div>
-						<div><button className="btn btn_yellow">Try it now! <i className="fa fa-arrow-right"></i></button></div>
+						<div><button className="btn btn_yellow">Try it now! <img src="/images/arrow.png" alt="" /></button></div>
 					</div>
 				</div>
 				<div className="benefit_wrapper">

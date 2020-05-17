@@ -52,7 +52,7 @@ class Header extends React.Component {
 						            </Link>
 						          </Menu.Item>
 						          <Menu.Item key="/d">
-						            <Link to="/">
+						            <Link to="/technology">
 						              <p>Technology</p>
 						            </Link>
 						          </Menu.Item>
