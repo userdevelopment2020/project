@@ -69,26 +69,50 @@ class Home extends React.Component {
 										<div className="box_container">
 											<img src="/images/Vendor&cust_onboard-01.png" alt="" />
 											<p>Vendors & Customers Onboarding</p>
+											<div className="image_change">
+												<img src="/images/Vendor&cust_onboard-gold.png" alt="" />
+												<p>Vendors & Customers Onboarding</p>
+											</div>
 										</div>
 										<div className="box_container pad_in">
 											<img src="/images/Contract-01.png" alt="" />
 											<p>Contracts Management</p>
+											<div className="image_change pad_in">
+												<img src="/images/Contract-gold.png" alt="" />
+												<p>Contracts Management</p>
+											</div>
 										</div>
 										<div className="box_container">
 											<img src="/images/Order-01.png" alt="" />
 											<p>Order Life-cycle Management</p>
+											<div className="image_change">
+												<img src="/images/Order-gold.png" alt="" />
+												<p>Order Life-cycle Management</p>
+											</div>
 										</div>
 										<div className="box_container pad_in">
 											<img src="/images/Purchase_order-01.png" alt="" />
 											<p>ePoD Establishment</p>
+											<div className="image_change pad_in">
+												<img src="/images/Purchase_order-gold.png" alt="" />
+												<p>ePoD Establishment</p>
+											</div>
 										</div>
 										<div className="box_container">
 											<img src="/images/Invoice-01.png" alt="" />
 											<p>Automated Invoice Validation</p>
+											<div className="image_change">
+												<img src="/images/Invoice-gold.png" alt="" />
+												<p>Automated Invoice Validation</p>
+											</div>
 										</div>
 										<div className="box_container pad_in last_child">
 											<img src="/images/Instant-01.png" alt="" />
 											<p>Instant Reconciliation</p>
+											<div className="image_change pad_in">
+												<img src="/images/Instant-glod.png" alt="" />
+												<p>Instant Reconciliation</p>
+											</div>
 										</div>
 									</div>
 									<img src="images/Tab.png" className="tab_img" alt="" />
@@ -113,34 +137,58 @@ class Home extends React.Component {
 										<div className="box_container">
 											<img src="/images/Collab-01.png" alt="" />
 											<p>SEAMLESS COLLABORATION</p>
+											<div className="describe_text">
+												<p>Thanks to our blockchain-powered platform, you can safely trace the origin of your documents or identify other changes made in the document workflow.</p>
+											</div>
 										</div>
 										<div className="box_container pad_in">
 											<img src="/images/Reduce_cost-01.png" alt="" />
 											<p>REDUCES COSTS</p>
+											<div className="describe_text">
+												<p>Thanks to our blockchain-powered platform, you can safely trace the origin of your documents or identify other changes made in the document workflow.</p>
+											</div>
 										</div>
 										<div className="box_container">
 											<img src="/images/Instant_recon-01.png" alt="" />
 											<p>INSTANT RECONCILIACION</p>
+											<div className="describe_text">
+												<p>Thanks to our blockchain-powered platform, you can safely trace the origin of your documents or identify other changes made in the document workflow.</p>
+											</div>
 										</div>
 										<div className="box_container">
 											<img src="/images/Improve_productivity-01.png" alt="" />
 											<p>IMPROVED PRODUCTIVITY</p>
+											<div className="describe_text">
+												<p>Thanks to our blockchain-powered platform, you can safely trace the origin of your documents or identify other changes made in the document workflow.</p>
+											</div>
 										</div>
 										<div className="box_container pad_in">
 											<img src="/images/Data_Privacy-01.png" alt="" />
 											<p>FULL DATA PRIVACY</p>
+											<div className="describe_text">
+												<p>Thanks to our blockchain-powered platform, you can safely trace the origin of your documents or identify other changes made in the document workflow.</p>
+											</div>
 										</div>
 										<div className="box_container">
 											<img src="/images/Track-in-trace-01.png" alt="" />
 											<p>INSTANT TRACK-N-TRACE</p>
+											<div className="describe_text">
+												<p>Thanks to our blockchain-powered platform, you can safely trace the origin of your documents or identify other changes made in the document workflow.</p>
+											</div>
 										</div>
 										<div className="box_container">
 											<img src="/images/Trust-01.png" alt="" />
 											<p>INCREASED TRUST IN TRADE</p>
+											<div className="describe_text">
+												<p>Thanks to our blockchain-powered platform, you can safely trace the origin of your documents or identify other changes made in the document workflow.</p>
+											</div>
 										</div>
 										<div className="box_container">
 											<img src="/images/Cashflow-01.png" alt="" />
 											<p>IMPROVED CASHFLOW</p>
+											<div className="describe_text">
+												<p>Thanks to our blockchain-powered platform, you can safely trace the origin of your documents or identify other changes made in the document workflow.</p>
+											</div>
 										</div>
 									</div>
 									<div className="btn_wrap">
