@@ -110,50 +110,58 @@ class Solutions extends React.Component {
 						<div className="box_wrapper">
 							<div className="box_container">
 								<img src="/images/Vendor&cust_onboard-01.png" alt="" />
-								<p>Vendors & Customers Onboarding</p>
+								<p>GET YOUR UNIQUE ID</p>
 								<div className="image_change">
 									<img src="/images/Vendor&cust_onboard-gold.png" alt="" />
-									<p>Vendors & Customers Onboarding</p>
+									<p>GET YOUR UNIQUE ID</p>
 								</div>
 							</div>
 							<div className="box_container pad_in">
 								<img src="/images/Contract-01.png" alt="" />
-								<p>Contracts Management</p>
+								<p>CREATE WORKFLOWS</p>
 								<div className="image_change pad_in">
 									<img src="/images/Contract-gold.png" alt="" />
-									<p>Contracts Management</p>
+									<p>CREATE WORKFLOWS</p>
 								</div>
 							</div>
 							<div className="box_container">
 								<img src="/images/Order-01.png" alt="" />
-								<p>Order Life-cycle Management</p>
+								<p>SHARE QUOTATIONS</p>
 								<div className="image_change">
 									<img src="/images/Order-gold.png" alt="" />
-									<p>Order Life-cycle Management</p>
+									<p>SHARE QUOTATIONS</p>
 								</div>
 							</div>
 							<div className="box_container pad_in">
 								<img src="/images/Purchase_order-01.png" alt="" />
-								<p>ePoD Establishment</p>
+								<p>GET PURCHASE ORDERS</p>
 								<div className="image_change pad_in">
 									<img src="/images/Purchase_order-gold.png" alt="" />
-									<p>ePoD Establishment</p>
+									<p>GET PURCHASE ORDERS</p>
 								</div>
 							</div>
 							<div className="box_container">
 								<img src="/images/Invoice-01.png" alt="" />
-								<p>Automated Invoice Validation</p>
+								<p>SEND INVOICES</p>
 								<div className="image_change">
 									<img src="/images/Invoice-gold.png" alt="" />
-									<p>Automated Invoice Validation</p>
+									<p>SEND INVOICES</p>
 								</div>
 							</div>
 							<div className="box_container pad_in last_child">
 								<img src="/images/Instant-01.png" alt="" />
-								<p>Instant Reconciliation</p>
+								<p>TRACK & RECORD PAYMENTS</p>
 								<div className="image_change pad_in">
 									<img src="/images/Instant-glod.png" alt="" />
-									<p>Instant Reconciliation</p>
+									<p>TRACK & RECORD PAYMENTS</p>
+								</div>
+							</div>
+							<div className="box_container pad_in last_child">
+								<img src="/images/Subscribers-01.png" alt="" />
+								<p>ADD SUBSCRIBERS</p>
+								<div className="image_change pad_in">
+									<img src="/images/Subscribers-gold.png" alt="" />
+									<p>ADD SUBSCRIBERS</p>
 								</div>
 							</div>
 						</div>

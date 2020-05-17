@@ -46,6 +46,7 @@
 					background: #ffbf00;
 					padding: 8px 30px;
 					font-size: 20px;
+					box-shadow: 0 2px 5px #c5c5c5;
 				}
 				.bottom_text{
 					font-size: 16px;
@@ -253,13 +254,13 @@
 			.box_container{
 				display: inline-block;
 				vertical-align: middle;
-				width: 15%;
+				width: 13%;
 				text-align: center;
 				background: #211f30;
 				border-radius: 5px;
 				margin: 0 7px 50px;
 				box-shadow: 6px 5px 10px;
-				padding: 0 5px;
+				padding: 0 37px;
 				position: relative;
 				cursor: pointer;
 				img{
@@ -275,7 +276,7 @@
 				}
 			}
 			.pad_in{
-				padding: 0 11px !important;
+				padding: 0 30px !important;
 			}
 			.image_change {
 				position: absolute;
@@ -289,7 +290,7 @@
 				transition: .5s ease;
 				background-color: #242435;
 			    border-radius: 5px;
-			    padding: 0 5px;
+			    padding: 0 37px;
 				p {
 				  color: #ffbf00;
 				  font-weight: 400;
@@ -319,6 +320,7 @@
 			left: 140px;
 	    	bottom: -20px;
 	    	font-size: 20px;
+	    	box-shadow: 0 2px 5px #c5c5c5;
 		}
 	}
 	.benefit_wrapper{
