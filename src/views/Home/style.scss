@@ -685,6 +685,14 @@
 					font-size: 10px;
 				}
 			}
+			.describe_text{
+				overflow-y: auto;
+				p{
+				    top: 0;
+				    left: 50%;
+				    transform: translate(-50%, 0);
+				}
+			}
 		}
 	}
 	.block_chain{
@@ -794,5 +802,19 @@
 			width: 90%;
 			bottom: -25px;
 		}
+	} 
+}
+
+@media screen and (max-width: 417px){
+	.challenges_wrap{
+		.btn_wrap{
+		    flex-direction: column;
+		    .btn_dark{
+		    	margin: 0 0 15px;
+		    }
+		    .btn_purpel{
+		    	margin: 0;
+		    }
+		}	
 	} 
 }

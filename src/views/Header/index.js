@@ -110,10 +110,10 @@ class Header extends React.Component {
 				          	<Link to="/solutions">
 				              	<p>Solutions</p>
 				            </Link>
-				          	<Link to="/">
+				          	<Link to="/technology">
 				              	<p>Technology</p>
 				            </Link>
-				            <Link to="/technology">
+				            <Link to="/">
 				              	<p>Team</p>
 				            </Link>
 					        </Drawer>

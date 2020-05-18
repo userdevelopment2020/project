@@ -2,11 +2,6 @@ import React from "react";
 import "./style.scss";
 
 class Technology extends React.Component {
-	constructor(props) {
-		super(props);
-
-		this.state = {};
-	}
 
 	render() {
 		return (
@@ -14,14 +9,14 @@ class Technology extends React.Component {
 				<div className="top_section_solution">
 					<div className="container-fluid">
 						<div className="left_wrap">
-							<img src="/images/banner-img.png" alt="" />
+							<img src={`/images/banner-img.png`} alt="" />
 						</div>
 						<div className="right_wrap">
 							<div className="content_wrap">
 								<h1>Accelerating trade finance with blockchain</h1>
 								<p className="top_text">⦃param⦄ is a peer-to-peer hybrid blockchain protocol based on Quorum, specifically developed to automate and protect the exchange of documents between organizations</p>
 								<div className="bottom_wrapper">
-									<button className="btn btn_yellow">Try it now! <img src="/images/arrow.png" alt="" /></button>
+									<button className="btn btn_yellow">Try it now! <img src={`/images/arrow.png`} alt="" /></button>
 									<p className="bottom_text">The technology enables enterprises and financial institutions to share digital assets such as quotations, POs, invoices, payments, and receipts without consortium requirements, according to all compliance standards and with the highest level of data privacy.</p>
 								</div>
 							</div>
@@ -37,30 +32,30 @@ class Technology extends React.Component {
 						</div>
 						<div className="box_wrap_container border_wrap">
 							<div className="box_container shadow_wrap">
-								<img src="/images/client-server-img.png" alt="" />
+								<img src={`/images/client-server-img.png`} alt="" />
 							</div>
 							<div className="box_container">
-								<img src="/images/transaction-img.png" alt="" />
+								<img src={`/images/transaction-img.png`} alt="" />
 							</div>
 							<div className="box_container">
-								<img src="/images/broadcast-img.png" alt="" />
+								<img src={`/images/broadcast-img.png`} alt="" />
 							</div>
 							<div className="box_container">
-								<img src="/images/diag-img4.png" alt="" />
+								<img src={`/images/diag-img4.png`} alt="" />
 							</div>
 						</div>
 						<div className="box_wrap_container">
 							<div className="box_container shadow_wrap">
-								<img src="/images/p2p-network-img.png" alt="" />
+								<img src={`/images/p2p-network-img.png`} alt="" />
 							</div>
 							<div className="box_container">
-								<img src="/images/diag-img6.png" alt="" />
+								<img src={`/images/diag-img6.png`} alt="" />
 							</div>
 							<div className="box_container">
-								<img src="/images/diag-img7.png" alt="" />
+								<img src={`/images/diag-img7.png`} alt="" />
 							</div>
 							<div className="box_container">
-								<img src="/images/diag-img8.png" alt="" />
+								<img src={`/images/diag-img8.png`} alt="" />
 							</div>
 						</div>
 						<div className="wrapper_text">
@@ -88,50 +83,50 @@ class Technology extends React.Component {
 						</div>
 						<div className="box_wrapper">
 							<div className="box_container">
-								<img src="/images/permision-blockchained-icon.png" alt="" />
+								<img src={`/images/permision-blockchained-icon.png`} alt="" />
 								<p>Permissioned blockchain. No Consortium</p>
 								<div className="image_change">
-									<img src="/images/permision-blockchained-icon-gold.png" alt="" />
+									<img src={`/images/permision-blockchained-icon-gold.png`} alt="" />
 									<p>Permissioned blockchain. No Consortium</p>
 								</div>
 							</div>
 							<div className="box_container pad_in">
-								<img src="/images/ledger-icon.png" alt="" />
+								<img src={`/images/ledger-icon.png`} alt="" />
 								<p>Enhanced Ledger for Commerce</p>
 								<div className="image_change pad_in">
-									<img src="/images/ledger-icon-gold.png" alt="" />
+									<img src={`/images/ledger-icon-gold.png`} alt="" />
 									<p>Enhanced Ledger for Commerce</p>
 								</div>
 							</div>
 							<div className="box_container">
-								<img src="/images/privacy-icon.png" alt="" />
+								<img src={`/images/privacy-icon.png`} alt="" />
 								<p>Full Data Privacy on Private & Protected nodes</p>
 								<div className="image_change">
-									<img src="/images/privacy-icon-gold.png" alt="" />
+									<img src={`/images/privacy-icon-gold.png`} alt="" />
 									<p>Full Data Privacy on Private & Protected nodes</p>
 								</div>
 							</div>
 							<div className="box_container pad_in">
-								<img src="/images/knowledge-icon.png" alt="" />
+								<img src={`/images/knowledge-icon.png`} alt="" />
 								<p>Decentralized Knowledge Graph</p>
 								<div className="image_change pad_in">
-									<img src="/images/knowledge-icon-gold.png" alt="" />
+									<img src={`/images/knowledge-icon-gold.png`} alt="" />
 									<p>Decentralized Knowledge Graph</p>
 								</div>
 							</div>
 							<div className="box_container pad_in">
-								<img src="/images/seamless-icon.png" alt="" />
+								<img src={`/images/seamless-icon.png`} alt="" />
 								<p>Seamless ERP Integration</p>
 								<div className="image_change">
-									<img src="/images/seamless-icon-gold.png" alt="" />
+									<img src={`/images/seamless-icon-gold.png`} alt="" />
 									<p>Seamless ERP Integration</p>
 								</div>
 							</div>
 							<div className="box_container pad_in last_child">
-								<img src="/images/comp-val-chain-icon.png" alt="" />
+								<img src={`/images/comp-val-chain-icon.png`} alt="" />
 								<p>Complete value-chain on blockchain</p>
 								<div className="image_change pad_in">
-									<img src="/images/comp-val-chain-icon-gold.png" alt="" />
+									<img src={`/images/comp-val-chain-icon-gold.png`} alt="" />
 									<p>Complete value-chain on blockchain</p>
 								</div>
 							</div>
@@ -146,7 +141,7 @@ class Technology extends React.Component {
 								</div>
 							</div>
 							<div className="right_wrapper_img">
-								<img src="/images/img2.png" className="img_tab" alt="" />
+								<img src={`/images/img2.png`} className="img_tab" alt="" />
 							</div>
 						</div>
 					</div>
@@ -161,54 +156,29 @@ class Technology extends React.Component {
 							<div className="bottom_wrap">
 								<div className="box_wrap">
 									<div className="box_container">
-									<img src="/images/peer2peer.png" alt="" />
+									<img src={`/images/peer2peer.png`} alt="" />
 									<p>PEER 2 PEER</p>
 									</div>
 									<div className="box_container pad_in">
-										<img src="/images/ident-manag.png" alt="" />
+										<img src={`/images/ident-manag.png`} alt="" />
 										<p>SELF IDENTITY MANAGEMENT</p>
 									</div>
 									<div className="box_container pad_in">
-										<img src="/images/pub-ident.png" alt="" />
+										<img src={`/images/pub-ident.png`} alt="" />
 										<p>MULTIPLE PUBLIC IDENTITIES</p>
 									</div>
 									<div className="box_container">
-										<img src="/images/data-ownershp.png" alt="" />
+										<img src={`/images/data-ownershp.png`} alt="" />
 										<p>DATA OWNERSHIP</p>
 									</div>
 									<div className="box_container">
-										<img src="/images/data-tmpr.png" alt="" />
+										<img src={`/images/data-tmpr.png`} alt="" />
 										<p>DATA TAMPER-PROOF</p>
 									</div>
 								</div>
 							</div>
 							<p className="text_content">Our enterprise-grade secure document sharing platform allows companies to instantly share documents over a new type of business oriented decentralized collaboration network. Our enterprise-grade secure document sharing platform allows companies to instantly share documents over a new type of business oriented decentralized collaboration network.</p>
 							<button className="btn btn_purpel">Learn More</button>
-						</div>
-					</div>
-				</div>
-				<div className="bottom_section">
-					<div className="container">
-						<div className="row">
-							<div className="col-md-12">
-								<div className="onetapaway_wrapper">
-									<h6>ANYWHERE. ANYTIME. ANYDEVICE.</h6>
-									<h1>One tap away</h1>
-									<p>
-										Our platform allows you to remotely
-										access your workflows and documents from
-										your iOS devices - mobile, tablet,
-										laptop or desktop.
-									</p>
-								</div>
-								<div className="footer_top_image">
-									<div className="content_wrapper">
-										<button className="btn btn_purpel">
-											Try it now!
-										</button>
-									</div>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
