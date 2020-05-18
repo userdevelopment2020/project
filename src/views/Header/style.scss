@@ -120,3 +120,42 @@
 		padding: 10px 10px 0;
 	}
 }
+
+.white_header{
+	.menu_company {
+	    color: #fff;
+	}
+	.header_wrap{
+		.ant-menu-item {
+			a{
+				color: #fff;
+				&:hover{
+					color: #fff;
+				}
+			}
+			.btn_purpel {
+			    background: #fff;
+			    color: #6f67fd;
+			    font-weight: 900;
+			}	
+		}
+	} 
+	.mobile_header{
+		.mobile_sub_wrapper {
+			.left_wrapper{
+				.btn_drawer{
+					color: #fff;
+				}			
+			} 
+		}
+	} 
+}
+.white_header .ant-menu-horizontal > .ant-menu-item:hover:after, .white_header .ant-menu-horizontal > .ant-menu-submenu:hover:after, .white_header .ant-menu-horizontal > .ant-menu-item-active:after, .white_header .ant-menu-horizontal > .ant-menu-submenu-active:after, .white_header .ant-menu-horizontal > .ant-menu-item-open:after, .white_header .ant-menu-horizontal > .ant-menu-submenu-open:after, .white_header .ant-menu-horizontal > .ant-menu-item-selected:after, .white_header .ant-menu-horizontal > .ant-menu-submenu-selected:after{
+    content: '';
+    position: absolute;
+    border: 3px solid #fff;
+    line-height: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}

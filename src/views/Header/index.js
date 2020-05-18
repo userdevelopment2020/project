@@ -1,4 +1,5 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 import { Link } from 'react-router-dom'
 import { Menu, Drawer } from 'antd';
 import "./style.scss";
@@ -8,7 +9,8 @@ class Header extends React.Component {
 		super(props);
 
 		this.state = {
-			visible: false
+			visible: false,
+			routerClass: ""
 		};
 	}
 	showDrawer = () => {
@@ -23,10 +25,25 @@ class Header extends React.Component {
 	    });
 	  };
 
+      componentDidUpdate(prevProps) {
+        if (this.props.location.pathname !== prevProps.location.pathname) {
+        	let ar = ["/solutions", "/technology"]
+        	let rClass = ar.includes(this.props.location.pathname) ? "white_header": ""
+            this.setState({ routerClass: rClass })
+        }
+    }
+
+	componentDidMount(){
+		let ar = ["/solutions", "/technology"]
+    	let rClass = ar.includes(this.props.location.pathname) ? "white_header": ""
+        this.setState({ routerClass: rClass, activePage: this.props.location.pathname })
+	}
+
 	render() {
+		const { routerClass, activePage } = this.state
 		return (
 			<>
-				<div className="header">
+				<div className={`header ${routerClass}`}>
 					<div className="container">
 						<div className="row">
 							<div className="col-md-12">
@@ -35,23 +52,25 @@ class Header extends React.Component {
 						          mode="horizontal"
 						          overflowedIndicator={<i className="fa fa-list"></i>}
 						          className="header_wrap"
+						          selectedKeys={[activePage]}
+						          onSelect={item => this.setState({ activePage: item.key })}
 						        >
 						          <Menu.Item key="/a" className="left_menu no_border" >
 						            <Link to="/">
 						              <p className="menu_company">⦃param⦄.network</p>
 						            </Link>
 						          </Menu.Item>
-						          <Menu.Item key="/b">
+						          <Menu.Item key="/">
 						            <Link to="/">
 						              <p>Home</p>
 						            </Link>
 						          </Menu.Item>
-						          <Menu.Item key="/c">
+						          <Menu.Item key="/solutions">
 						            <Link to="/solutions">
 						              <p>Solutions</p>
 						            </Link>
 						          </Menu.Item>
-						          <Menu.Item key="/d">
+						          <Menu.Item key="/technology">
 						            <Link to="/technology">
 						              <p>Technology</p>
 						            </Link>
@@ -105,4 +124,4 @@ class Header extends React.Component {
 		);
 	}
 }
-export default Header
+export default withRouter(Header)

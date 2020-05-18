@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./views/Home";
 import About from "./views/About";
@@ -8,11 +8,16 @@ import Header from "./views/Header";
 import Footer from "./views/Footer";
 import "./App.scss";
 
-function App() {
+function App(props) {
+  /*eslint no-restricted-globals: ["error", "event"]*/
+//   useEffect(() => {
+//     const { pathname } = location;
+//     console.log('New path:', pathname);
+// }, [location.pathname]);
   return (
     <Router>
       <div className="main--wrapper">
-        <Header />
+        <Header {...props} />
         <Switch className="body--wrapper">
           <Route exact path="/">
             <Home />
